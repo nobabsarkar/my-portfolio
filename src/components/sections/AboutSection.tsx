@@ -115,19 +115,19 @@ export default function AboutSection() {
                 </p>
 
                 <div className="mt-5 space-y-4 text-sm leading-7 text-muted-foreground sm:text-base">
-                  <p>
+                  <p className="text-justify">
                     I&apos;m a full-stack developer passionate about building
                     modern, responsive, and user-friendly web applications with
                     React, Next.js, TypeScript, and Node.js.
                   </p>
 
-                  <p>
+                  <p className="text-justify">
                     I build scalable, data-driven applications using PostgreSQL
                     and Prisma, with a strong focus on clean code, intuitive UI,
                     and maintainable architecture.
                   </p>
 
-                  <p>
+                  <p className="text-justify">
                     I&apos;m eager to collaborate with development teams, solve
                     real-world problems, and grow as a software engineer.
                   </p>
