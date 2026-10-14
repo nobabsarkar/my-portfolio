@@ -165,19 +165,6 @@ const SkillSection = () => {
             );
           })}
         </div>
-
-        {/* Bottom Highlight */}
-        <div className="mt-8 flex flex-col items-center justify-center gap-3 rounded-2xl border border-border bg-card/60 px-5 py-6 text-center sm:flex-row sm:gap-4">
-          <div className="flex size-10 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary">
-            <Code2 className="size-5" />
-          </div>
-
-          <p className="max-w-2xl text-sm leading-7 text-muted-foreground">
-            Focused on writing maintainable code, building reusable components,
-            integrating REST APIs, and delivering reliable full-stack web
-            applications.
-          </p>
-        </div>
       </div>
     </section>
   );
