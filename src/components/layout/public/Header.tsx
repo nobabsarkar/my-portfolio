@@ -53,17 +53,14 @@ const Header = () => {
     <header className="sticky top-0 z-50 w-full border-b border-border/70 bg-background/85 backdrop-blur-xl">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         {/* Logo */}
-        <Link
-          href="#home"
-          className="group flex shrink-0 items-center gap-2.5"
-          onClick={() => handleNavClick("#home")}
-        >
-          <span className="flex size-10 items-center justify-center rounded-xl border border-border bg-muted text-foreground transition-all duration-200 group-hover:bg-accent group-hover:shadow-sm">
-            <Code2 size={22} strokeWidth={2.2} />
+
+        <Link href="#home" className="inline-flex items-center gap-2">
+          <span className="flex size-10 items-center justify-center rounded-xl bg-primary text-primary-foreground">
+            <Code2 className="size-5" />
           </span>
 
-          <span className="text-xl font-bold tracking-tight text-foreground">
-            NS<span className="text-muted-foreground text-primary">.dev</span>
+          <span className="text-xl font-bold tracking-tight">
+            NS<span className="text-primary">.dev</span>
           </span>
         </Link>
 

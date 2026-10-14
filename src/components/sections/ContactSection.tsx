@@ -130,7 +130,7 @@ const ContactSection = () => {
 
           <p className="mt-5 text-sm leading-7 text-muted-foreground sm:text-base">
             I&apos;m open to full-time opportunities, internships, and
-            collaborations. If you&apos;re looking for a dedicated MERN Stack
+            collaborations. If you&apos;re looking for a dedicated PERN Stack
             Developer, I&apos;d love to hear from you.
           </p>
         </div>
