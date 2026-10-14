@@ -108,10 +108,7 @@ const ContactSection = () => {
   };
 
   return (
-    <section
-      id="contact"
-      className="relative overflow-hidden py-20 sm:py-24 lg:py-28"
-    >
+    <section id="contact" className="relative overflow-hidden ">
       {/* Background Decorations */}
       <div className="pointer-events-none absolute left-0 top-20 -z-10 size-72 rounded-full bg-primary/5 blur-3xl" />
       <div className="pointer-events-none absolute bottom-10 right-0 -z-10 size-72 rounded-full bg-primary/5 blur-3xl" />
@@ -119,9 +116,12 @@ const ContactSection = () => {
       <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Section Heading */}
         <div className="mx-auto mb-14 max-w-2xl text-center sm:mb-16">
-          <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/5 px-4 py-2 text-sm font-medium text-primary">
-            <MessageSquare className="size-4" />
-            Get In Touch
+          <div className="mb-4 flex items-center justify-center gap-3">
+            <span className="h-1 w-10 rounded-full bg-primary" />
+            <span className="text-sm font-semibold uppercase tracking-[0.2em] text-primary">
+              Contact Me
+            </span>
+            <span className="h-1 w-10 rounded-full bg-primary" />
           </div>
 
           <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl lg:text-5xl">

@@ -109,27 +109,27 @@ export default function AboutSection() {
                   Hi, I&apos;m{" "}
                   <span className="text-primary">Nobab Sarkar</span>
                 </h3>
-
                 <p className="mt-2 text-sm font-medium leading-6 text-muted-foreground sm:text-base">
                   PERN Stack Developer | Next.js | TypeScript | PostgreSQL
                 </p>
 
                 <div className="mt-5 space-y-4 text-sm leading-7 text-muted-foreground sm:text-base">
                   <p className="text-justify">
-                    I&apos;m a full-stack developer passionate about building
-                    modern, responsive, and user-friendly web applications with
-                    React, Next.js, TypeScript, and Node.js.
+                    I&apos;'m a Full-Stack Web Developer passionate about
+                    building modern, responsive, and scalable web applications
+                    using React, Next.js, TypeScript, and Node.js.
                   </p>
 
                   <p className="text-justify">
-                    I build scalable, data-driven applications using PostgreSQL
-                    and Prisma, with a strong focus on clean code, intuitive UI,
-                    and maintainable architecture.
+                    I enjoy writing clean, maintainable code and creating
+                    intuitive, user-friendly experiences. Beyond coding, I love
+                    riding bikes and enjoying fast food.
                   </p>
 
                   <p className="text-justify">
-                    I&apos;m eager to collaborate with development teams, solve
-                    real-world problems, and grow as a software engineer.
+                    My future goal is to strengthen my problem-solving skills
+                    and explore Artificial Intelligence to build smarter, more
+                    innovative software solutions.
                   </p>
                 </div>
               </div>
