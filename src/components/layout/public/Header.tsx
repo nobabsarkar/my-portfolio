@@ -102,12 +102,12 @@ const Header = () => {
           </Button>
 
           {/* Resume Button */}
-          <Button className="group hidden h-9 cursor-pointer rounded-lg bg-foreground px-4 text-background transition-all duration-200 hover:bg-foreground/85 hover:shadow-md sm:inline-flex">
+
+          <Button className="group  hidden h-9 cursor-pointer rounded-lg bg-foreground px-4 text-background transition-all duration-200 hover:bg-foreground/85 hover:shadow-md sm:inline-flex">
             <Link
               className="flex items-center"
-              href="/resume.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/images/resume.pdf"
+              download="Nobab-Sarkar-Resume.pdf"
             >
               <Download className="mr-2 size-4 transition-transform duration-200 group-hover:translate-y-0.5" />
               Resume

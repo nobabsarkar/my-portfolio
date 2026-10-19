@@ -292,10 +292,14 @@ export default function HeroSection() {
               variant="outline"
               className="group h-12 rounded-xl border-border bg-background/70 px-6 font-bold transition-all duration-300 hover:-translate-y-1 hover:border-primary/50 hover:bg-primary/[0.05]"
             >
-              <a href="/resume.pdf" download>
+              <Link
+                className="flex items-center"
+                href="/images/resume.pdf"
+                download="Nobab-Sarkar-Resume.pdf"
+              >
                 <Download className="mr-2 size-4 transition-transform duration-300 group-hover:translate-y-0.5" />
                 Download Resume
-              </a>
+              </Link>
             </Button>
           </div>
         </div>
