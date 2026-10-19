@@ -277,30 +277,31 @@ export default function HeroSection() {
 
           {/* Action buttons */}
           <div className="hero-fade-up mt-8 flex flex-col gap-3 sm:flex-row">
-            <Button
-              size="lg"
-              className="group h-12 rounded-xl px-6 font-bold shadow-lg shadow-primary/20 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
-            >
-              <Link href="#projects">
+            <Link href="#projects">
+              <Button
+                size="lg"
+                className="group h-12 cursor-pointer rounded-xl px-6 font-bold shadow-lg shadow-primary/20 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
+              >
                 Explore My Projects
                 <ArrowRight className="ml-2 size-4 transition-transform duration-300 group-hover:translate-x-1" />
-              </Link>
-            </Button>
+              </Button>
+            </Link>
 
-            <Button
-              size="lg"
-              variant="outline"
-              className="group h-12 rounded-xl border-border bg-background/70 px-6 font-bold transition-all duration-300 hover:-translate-y-1 hover:border-primary/50 hover:bg-primary/[0.05]"
+            <Link
+              href="/images/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              download="Nobab-Sarkar-Resume.pdf"
             >
-              <Link
-                className="flex items-center"
-                href="/images/resume.pdf"
-                download="Nobab-Sarkar-Resume.pdf"
+              <Button
+                size="lg"
+                variant="outline"
+                className="group h-12 cursor-pointer rounded-xl border-border bg-background/70 px-6 font-bold transition-all duration-300 hover:-translate-y-1 hover:border-primary/50 hover:bg-primary/[0.05]"
               >
                 <Download className="mr-2 size-4 transition-transform duration-300 group-hover:translate-y-0.5" />
                 Download Resume
-              </Link>
-            </Button>
+              </Button>
+            </Link>
           </div>
         </div>
 
